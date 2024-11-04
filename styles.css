@@ -1,0 +1,33 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFF1F3; /* Light pastel pink */
+    overflow: hidden; /* Prevent page scroll */
+}
+
+/* Envelope Container */
+.envelope-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+    perspective: 1000px; /* For 3D folding effect */
+}
+
+/* Instruction Text */
+.instruction {
+    position: absolute;
+    top: -30px; /* Position above the envelope */
+    left: 50%;
+    transform: translate
